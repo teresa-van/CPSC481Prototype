@@ -7,6 +7,32 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Button Content="" HorizontalAlignment="Left" Height="67.5" Margin="90,140,0,0" VerticalAlignment="Top" Width="120" BorderBrush="{x:Null}"/>
+        <Button Content="" HorizontalAlignment="Left" Height="67.5" Margin="215,140,0,0" VerticalAlignment="Top" Width="120" BorderBrush="{x:Null}"/>
+        <Button Content="" HorizontalAlignment="Left" Height="67.5" Margin="340,140,0,0" VerticalAlignment="Top" Width="120" BorderBrush="{x:Null}"/>
+        <Button Content="" HorizontalAlignment="Left" Height="67.5" Margin="465,140,0,0" VerticalAlignment="Top" Width="120" BorderBrush="{x:Null}"/>
+        <Button Content="" HorizontalAlignment="Left" Height="67.5" Margin="590,140,0,0" VerticalAlignment="Top" Width="120" BorderBrush="{x:Null}"/>
+
+        <Button Content="" HorizontalAlignment="Left" Height="67.5" Margin="90,290,0,0" VerticalAlignment="Top" Width="120" BorderBrush="{x:Null}"/>
+        <Button Content="" HorizontalAlignment="Left" Height="67.5" Margin="215,290,0,0" VerticalAlignment="Top" Width="120" BorderBrush="{x:Null}"/>
+        <Button Content="" HorizontalAlignment="Left" Height="67.5" Margin="340,290,0,0" VerticalAlignment="Top" Width="120" BorderBrush="{x:Null}"/>
+        <Button Content="" HorizontalAlignment="Left" Height="67.5" Margin="465,290,0,0" VerticalAlignment="Top" Width="120" BorderBrush="{x:Null}"/>
+        <Button Content="" HorizontalAlignment="Left" Height="67.5" Margin="590,290,0,0" VerticalAlignment="Top" Width="120" BorderBrush="{x:Null}"/>
+
+        <Button Content="" HorizontalAlignment="Left" Height="67.5" Margin="90,215,0,0" VerticalAlignment="Top" Width="120" BorderBrush="{x:Null}"/>
+        <Button Content="" HorizontalAlignment="Left" Height="67.5" Margin="215,215,0,0" VerticalAlignment="Top" Width="120" BorderBrush="{x:Null}"/>
+        <Button Content="" HorizontalAlignment="Left" Height="67.5" Margin="340,215,0,0" VerticalAlignment="Top" Width="120" BorderBrush="{x:Null}"/>
+        <Button Content="" HorizontalAlignment="Left" Height="67.5" Margin="465,215,0,0" VerticalAlignment="Top" Width="120" BorderBrush="{x:Null}"/>
+        <Button Content="" HorizontalAlignment="Left" Height="67.5" Margin="590,215,0,0" VerticalAlignment="Top" Width="120" BorderBrush="{x:Null}"/>
+
+        <Button Content="" HorizontalAlignment="Left" Height="67.5" Margin="155,40,0,0" VerticalAlignment="Top" Width="120" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="youtube.png" Stretch="UniformToFill"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Height="67.5" Margin="280,40,0,0" VerticalAlignment="Top" Width="120" BorderBrush="{x:Null}"/>
+        <Button Content="" HorizontalAlignment="Left" Height="67.5" Margin="405,40,0,0" VerticalAlignment="Top" Width="120" BorderBrush="{x:Null}"/>
+        <Button Content="" HorizontalAlignment="Left" Height="67.5" Margin="530,40,0,0" VerticalAlignment="Top" Width="120" BorderBrush="{x:Null}"/>
+
     </Grid>
 </Window>
