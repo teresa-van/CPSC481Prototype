@@ -7,32 +7,100 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <Button Content="" HorizontalAlignment="Left" Height="67.5" Margin="90,140,0,0" VerticalAlignment="Top" Width="120" BorderBrush="{x:Null}"/>
-        <Button Content="" HorizontalAlignment="Left" Height="67.5" Margin="215,140,0,0" VerticalAlignment="Top" Width="120" BorderBrush="{x:Null}"/>
-        <Button Content="" HorizontalAlignment="Left" Height="67.5" Margin="340,140,0,0" VerticalAlignment="Top" Width="120" BorderBrush="{x:Null}"/>
-        <Button Content="" HorizontalAlignment="Left" Height="67.5" Margin="465,140,0,0" VerticalAlignment="Top" Width="120" BorderBrush="{x:Null}"/>
-        <Button Content="" HorizontalAlignment="Left" Height="67.5" Margin="590,140,0,0" VerticalAlignment="Top" Width="120" BorderBrush="{x:Null}"/>
+        <Grid.Background>
+            <ImageBrush Stretch="UniformToFill" ImageSource="background.png">
+                <ImageBrush.RelativeTransform>
+                    <TransformGroup>
+                        <ScaleTransform CenterY="0.5" CenterX="0.5"/>
+                        <SkewTransform CenterY="0.5" CenterX="0.5"/>
+                        <RotateTransform CenterY="0.5" CenterX="0.5"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </ImageBrush.RelativeTransform>
+            </ImageBrush>
+        </Grid.Background>
 
-        <Button Content="" HorizontalAlignment="Left" Height="67.5" Margin="90,290,0,0" VerticalAlignment="Top" Width="120" BorderBrush="{x:Null}"/>
-        <Button Content="" HorizontalAlignment="Left" Height="67.5" Margin="215,290,0,0" VerticalAlignment="Top" Width="120" BorderBrush="{x:Null}"/>
-        <Button Content="" HorizontalAlignment="Left" Height="67.5" Margin="340,290,0,0" VerticalAlignment="Top" Width="120" BorderBrush="{x:Null}"/>
-        <Button Content="" HorizontalAlignment="Left" Height="67.5" Margin="465,290,0,0" VerticalAlignment="Top" Width="120" BorderBrush="{x:Null}"/>
-        <Button Content="" HorizontalAlignment="Left" Height="67.5" Margin="590,290,0,0" VerticalAlignment="Top" Width="120" BorderBrush="{x:Null}"/>
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="140,10,0,0" VerticalAlignment="Top" Width="525" RadiusY="5" RadiusX="5">
+            <Rectangle.Effect>
+                <BlurEffect/>
+            </Rectangle.Effect>
+            <Rectangle.Fill>
+                <SolidColorBrush Color="White" Opacity="0.6"/>
+            </Rectangle.Fill>
+        </Rectangle>
 
-        <Button Content="" HorizontalAlignment="Left" Height="67.5" Margin="90,215,0,0" VerticalAlignment="Top" Width="120" BorderBrush="{x:Null}"/>
-        <Button Content="" HorizontalAlignment="Left" Height="67.5" Margin="215,215,0,0" VerticalAlignment="Top" Width="120" BorderBrush="{x:Null}"/>
-        <Button Content="" HorizontalAlignment="Left" Height="67.5" Margin="340,215,0,0" VerticalAlignment="Top" Width="120" BorderBrush="{x:Null}"/>
-        <Button Content="" HorizontalAlignment="Left" Height="67.5" Margin="465,215,0,0" VerticalAlignment="Top" Width="120" BorderBrush="{x:Null}"/>
-        <Button Content="" HorizontalAlignment="Left" Height="67.5" Margin="590,215,0,0" VerticalAlignment="Top" Width="120" BorderBrush="{x:Null}"/>
-
-        <Button Content="" HorizontalAlignment="Left" Height="67.5" Margin="155,40,0,0" VerticalAlignment="Top" Width="120" BorderBrush="{x:Null}">
+        <Button x:Name="___Button__Profile" Content="" HorizontalAlignment="Left" Height="67.5" Margin="155,25,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.5,0.5" BorderThickness="1" BorderBrush="{x:Null}">
             <Button.Background>
-                <ImageBrush ImageSource="youtube.png" Stretch="UniformToFill"/>
+                <ImageBrush ImageSource="profile.png"/>
             </Button.Background>
         </Button>
-        <Button Content="" HorizontalAlignment="Left" Height="67.5" Margin="280,40,0,0" VerticalAlignment="Top" Width="120" BorderBrush="{x:Null}"/>
-        <Button Content="" HorizontalAlignment="Left" Height="67.5" Margin="405,40,0,0" VerticalAlignment="Top" Width="120" BorderBrush="{x:Null}"/>
-        <Button Content="" HorizontalAlignment="Left" Height="67.5" Margin="530,40,0,0" VerticalAlignment="Top" Width="120" BorderBrush="{x:Null}"/>
+        <Button x:Name="___Button__YouTube" Content="" HorizontalAlignment="Left" Height="67.5" Margin="280,25,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="youtube.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="___Button__Spotify" Content="" HorizontalAlignment="Left" Height="67.5" Margin="405,25,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="spotify.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="___Button__Settings" Content="" HorizontalAlignment="Left" Height="67.5" Margin="530,25,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="settings.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="___Button__Netflix" Content="" HorizontalAlignment="Left" Height="67.5" Margin="90,120,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="netflix.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="___Button__CrunchyRoll" Content="" HorizontalAlignment="Left" Height="67.5" Margin="215,120,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="crunchyroll.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="___Button__Twitch" Content="" HorizontalAlignment="Left" Height="67.5" Margin="340,120,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="twitch.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="___Button__Google_Play" Content="" HorizontalAlignment="Left" Height="67.5" Margin="465,120,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="googleplaymovies.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="___Button__Prime_Video" Content="" HorizontalAlignment="Left" Height="67.5" Margin="590,120,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="primevideo.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="___Button__Local_Videos" Content="" HorizontalAlignment="Left" Height="67.5" Margin="90,215,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="movies.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="___Button__Local_Pictures" Content="" HorizontalAlignment="Left" Height="67.5" Margin="215,215,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="pictures.png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Height="67.5" Margin="340,215,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="music.png"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Height="67.5" Margin="465,215,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}"/>
+        <Button Content="" HorizontalAlignment="Left" Height="67.5" Margin="590,215,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}"/>
+        <Button Content="" HorizontalAlignment="Left" Height="67.5" Margin="90,310,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}"/>
+        <Button Content="" HorizontalAlignment="Left" Height="67.5" Margin="215,310,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}"/>
+        <Button Content="" HorizontalAlignment="Left" Height="67.5" Margin="340,310,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}"/>
+        <Button Content="" HorizontalAlignment="Left" Height="67.5" Margin="465,310,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}"/>
+        <Button Content="" HorizontalAlignment="Left" Height="67.5" Margin="590,310,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}"/>
+        <TextBlock HorizontalAlignment="Left" Height="17.5" Margin="90,192.5,0,0" TextWrapping="Wrap" Width="120" FontFamily="UD Digi Kyokasho NK-B" VerticalAlignment="Top" Foreground="White"><Run Text="          "/><Run Text="Netflix"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="17.5" Margin="215,192.5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="UD Digi Kyokasho NK-B" Foreground="White"><Run Text="      "/><Run Text="CrunchyRoll"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="17.5" Margin="340,192.5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="UD Digi Kyokasho NK-B" Foreground="White" Text="          Twitch"/>
+        <TextBlock HorizontalAlignment="Left" Height="17.5" Margin="465,192.5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="UD Digi Kyokasho NK-B" Foreground="White" Text="Google Play Movies"/>
+        <TextBlock HorizontalAlignment="Left" Height="17.5" Margin="590,192.5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="UD Digi Kyokasho NK-B" Foreground="White" Text="      Prime Video"/>
 
     </Grid>
 </Window>

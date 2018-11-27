@@ -93,5 +93,38 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="logo-youtube.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="youtube.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="profile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="spotify.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="crunchyroll.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="netflix.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="twitch.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="googleplaymovies.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="primevideo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="background.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
