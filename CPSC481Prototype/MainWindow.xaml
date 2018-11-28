@@ -20,7 +20,7 @@
             </ImageBrush>
         </Grid.Background>
 
-        <Rectangle HorizontalAlignment="Left" Height="100" Margin="140,10,0,0" VerticalAlignment="Top" Width="525" RadiusY="5" RadiusX="5">
+        <Rectangle HorizontalAlignment="Left" Height="100" Margin="132.5,10,0,0" VerticalAlignment="Top" Width="540" RadiusY="5" RadiusX="5">
             <Rectangle.Effect>
                 <BlurEffect/>
             </Rectangle.Effect>
@@ -29,78 +29,227 @@
             </Rectangle.Fill>
         </Rectangle>
 
-        <Button x:Name="___Button__Profile" Content="" HorizontalAlignment="Left" Height="67.5" Margin="155,25,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.5,0.5" BorderThickness="1" BorderBrush="{x:Null}">
+        <Button x:Name="___Button__Profile" Content="" HorizontalAlignment="Left" Height="67.5" Margin="147.5,25,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.5,0.5" BorderThickness="1" BorderBrush="{x:Null}">
+            <Button.Effect>
+                <DropShadowEffect ShadowDepth="1"/>
+            </Button.Effect>
             <Button.Background>
                 <ImageBrush ImageSource="profile.png"/>
             </Button.Background>
         </Button>
-        <Button x:Name="___Button__YouTube" Content="" HorizontalAlignment="Left" Height="67.5" Margin="280,25,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}">
+        <Button x:Name="___Button__YouTube" Content="" HorizontalAlignment="Left" Height="67.5" Margin="277.5,25,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}">
+            <Button.Effect>
+                <DropShadowEffect ShadowDepth="1"/>
+            </Button.Effect>
             <Button.Background>
                 <ImageBrush ImageSource="youtube.png"/>
             </Button.Background>
         </Button>
-        <Button x:Name="___Button__Spotify" Content="" HorizontalAlignment="Left" Height="67.5" Margin="405,25,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}">
+        <Button x:Name="___Button__Spotify" Content="" HorizontalAlignment="Left" Height="67.5" Margin="407.5,25,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}">
+            <Button.Effect>
+                <DropShadowEffect ShadowDepth="1"/>
+            </Button.Effect>
             <Button.Background>
                 <ImageBrush ImageSource="spotify.png"/>
             </Button.Background>
         </Button>
-        <Button x:Name="___Button__Settings" Content="" HorizontalAlignment="Left" Height="67.5" Margin="530,25,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}">
+        <Button x:Name="___Button__Settings" Content="" HorizontalAlignment="Left" Height="67.5" Margin="537.5,25,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}">
+            <Button.Effect>
+                <DropShadowEffect ShadowDepth="1"/>
+            </Button.Effect>
             <Button.Background>
                 <ImageBrush ImageSource="settings.png"/>
             </Button.Background>
         </Button>
-        <Button x:Name="___Button__Netflix" Content="" HorizontalAlignment="Left" Height="67.5" Margin="90,120,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}">
+        <Button x:Name="___Button__Netflix" Content="" HorizontalAlignment="Left" Height="67.5" Margin="80,120,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}">
+            <Button.Effect>
+                <DropShadowEffect ShadowDepth="1"/>
+            </Button.Effect>
             <Button.Background>
                 <ImageBrush ImageSource="netflix.png"/>
             </Button.Background>
         </Button>
-        <Button x:Name="___Button__CrunchyRoll" Content="" HorizontalAlignment="Left" Height="67.5" Margin="215,120,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}">
+        <Button x:Name="___Button__CrunchyRoll" Content="" HorizontalAlignment="Left" Height="67.5" Margin="210,120,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}">
+            <Button.Effect>
+                <DropShadowEffect ShadowDepth="1"/>
+            </Button.Effect>
             <Button.Background>
                 <ImageBrush ImageSource="crunchyroll.png"/>
             </Button.Background>
         </Button>
         <Button x:Name="___Button__Twitch" Content="" HorizontalAlignment="Left" Height="67.5" Margin="340,120,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}">
+            <Button.Effect>
+                <DropShadowEffect ShadowDepth="1"/>
+            </Button.Effect>
             <Button.Background>
                 <ImageBrush ImageSource="twitch.png"/>
             </Button.Background>
         </Button>
-        <Button x:Name="___Button__Google_Play" Content="" HorizontalAlignment="Left" Height="67.5" Margin="465,120,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}">
+        <Button x:Name="___Button__Google_Play" Content="" HorizontalAlignment="Left" Height="67.5" Margin="470,120,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}">
+            <Button.Effect>
+                <DropShadowEffect ShadowDepth="1"/>
+            </Button.Effect>
             <Button.Background>
                 <ImageBrush ImageSource="googleplaymovies.png"/>
             </Button.Background>
         </Button>
-        <Button x:Name="___Button__Prime_Video" Content="" HorizontalAlignment="Left" Height="67.5" Margin="590,120,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}">
+        <Button x:Name="___Button__Prime_Video" Content="" HorizontalAlignment="Left" Height="67.5" Margin="600,120,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}">
+            <Button.Effect>
+                <DropShadowEffect ShadowDepth="1"/>
+            </Button.Effect>
             <Button.Background>
                 <ImageBrush ImageSource="primevideo.png"/>
             </Button.Background>
         </Button>
-        <Button x:Name="___Button__Local_Videos" Content="" HorizontalAlignment="Left" Height="67.5" Margin="90,215,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}">
+        <Button x:Name="___Button__Local_Videos" Content="" HorizontalAlignment="Left" Height="67.5" Margin="80,215,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}">
+            <Button.Effect>
+                <DropShadowEffect ShadowDepth="1"/>
+            </Button.Effect>
             <Button.Background>
                 <ImageBrush ImageSource="movies.png"/>
             </Button.Background>
         </Button>
-        <Button x:Name="___Button__Local_Pictures" Content="" HorizontalAlignment="Left" Height="67.5" Margin="215,215,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}">
+        <Button x:Name="___Button__Local_Pictures" Content="" HorizontalAlignment="Left" Height="67.5" Margin="210,215,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}">
+            <Button.Effect>
+                <DropShadowEffect ShadowDepth="1"/>
+            </Button.Effect>
             <Button.Background>
                 <ImageBrush ImageSource="pictures.png"/>
             </Button.Background>
         </Button>
-        <Button Content="" HorizontalAlignment="Left" Height="67.5" Margin="340,215,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}">
+        <Button x:Name="___Button__Local_Music" Content="" HorizontalAlignment="Left" Height="67.5" Margin="340,215,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}">
+            <Button.Effect>
+                <DropShadowEffect ShadowDepth="1"/>
+            </Button.Effect>
             <Button.Background>
                 <ImageBrush ImageSource="music.png"/>
             </Button.Background>
         </Button>
-        <Button Content="" HorizontalAlignment="Left" Height="67.5" Margin="465,215,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}"/>
-        <Button Content="" HorizontalAlignment="Left" Height="67.5" Margin="590,215,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}"/>
-        <Button Content="" HorizontalAlignment="Left" Height="67.5" Margin="90,310,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}"/>
-        <Button Content="" HorizontalAlignment="Left" Height="67.5" Margin="215,310,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}"/>
-        <Button Content="" HorizontalAlignment="Left" Height="67.5" Margin="340,310,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}"/>
-        <Button Content="" HorizontalAlignment="Left" Height="67.5" Margin="465,310,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}"/>
-        <Button Content="" HorizontalAlignment="Left" Height="67.5" Margin="590,310,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}"/>
-        <TextBlock HorizontalAlignment="Left" Height="17.5" Margin="90,192.5,0,0" TextWrapping="Wrap" Width="120" FontFamily="UD Digi Kyokasho NK-B" VerticalAlignment="Top" Foreground="White"><Run Text="          "/><Run Text="Netflix"/></TextBlock>
-        <TextBlock HorizontalAlignment="Left" Height="17.5" Margin="215,192.5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="UD Digi Kyokasho NK-B" Foreground="White"><Run Text="      "/><Run Text="CrunchyRoll"/></TextBlock>
-        <TextBlock HorizontalAlignment="Left" Height="17.5" Margin="340,192.5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="UD Digi Kyokasho NK-B" Foreground="White" Text="          Twitch"/>
-        <TextBlock HorizontalAlignment="Left" Height="17.5" Margin="465,192.5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="UD Digi Kyokasho NK-B" Foreground="White" Text="Google Play Movies"/>
-        <TextBlock HorizontalAlignment="Left" Height="17.5" Margin="590,192.5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="UD Digi Kyokasho NK-B" Foreground="White" Text="      Prime Video"/>
+        <Button x:Name="___Button__Local_Games" Content="" HorizontalAlignment="Left" Height="67.5" Margin="470,215,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}">
+            <Button.Effect>
+                <DropShadowEffect ShadowDepth="1"/>
+            </Button.Effect>
+            <Button.Background>
+                <ImageBrush ImageSource="games.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="___Button__Pokemon" Content="" HorizontalAlignment="Left" Height="67.5" Margin="600,215,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}">
+            <Button.Effect>
+                <DropShadowEffect ShadowDepth="1"/>
+            </Button.Effect>
+            <Button.Background>
+                <ImageBrush ImageSource="pokemon.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="___Button__Hulu" Content="" HorizontalAlignment="Left" Height="67.5" Margin="80,310,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}">
+            <Button.Effect>
+                <DropShadowEffect ShadowDepth="1"/>
+            </Button.Effect>
+            <Button.Background>
+                <ImageBrush ImageSource="hulu.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="___Button__PlayStation" Content="" HorizontalAlignment="Left" Height="67.5" Margin="210,310,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}">
+            <Button.Effect>
+                <DropShadowEffect ShadowDepth="1"/>
+            </Button.Effect>
+            <Button.Background>
+                <ImageBrush ImageSource="playstation.png"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="___Button__Cable_TV" Content="" HorizontalAlignment="Left" Height="67.5" Margin="340,310,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="cable.png"/>
+            </Button.Background>
+            <Button.Effect>
+                <DropShadowEffect ShadowDepth="1"/>
+            </Button.Effect>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Height="67.5" Margin="470,310,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="lemon.png"/>
+            </Button.Background>
+            <Button.Effect>
+                <DropShadowEffect ShadowDepth="1"/>
+            </Button.Effect>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Height="67.5" Margin="600,310,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}">
+            <Button.Background>
+                <ImageBrush ImageSource="store.png"/>
+            </Button.Background>
+            <Button.Effect>
+                <DropShadowEffect ShadowDepth="1"/>
+            </Button.Effect>
+        </Button>
+        <TextBlock HorizontalAlignment="Left" Height="17.5" Margin="80,192.5,0,0" TextWrapping="Wrap" Width="120" FontFamily="UD Digi Kyokasho NK-B" VerticalAlignment="Top" Foreground="White" Text="Netflix" TextAlignment="Center">
+            <TextBlock.Effect>
+                <DropShadowEffect ShadowDepth="1"/>
+            </TextBlock.Effect></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="17.5" Margin="210,192.5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="UD Digi Kyokasho NK-B" Foreground="White" Text="CrunchyRoll" TextAlignment="Center">
+            <TextBlock.Effect>
+                <DropShadowEffect ShadowDepth="1"/>
+            </TextBlock.Effect></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="17.5" Margin="340,192.5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="UD Digi Kyokasho NK-B" Foreground="White" Text="Twitch" TextAlignment="Center">
+            <TextBlock.Effect>
+                <DropShadowEffect ShadowDepth="1"/>
+            </TextBlock.Effect>
+        </TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="17.5" Margin="470,192.5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="UD Digi Kyokasho NK-B" Foreground="White" Text="Google Play Movies" TextAlignment="Center">
+            <TextBlock.Effect>
+                <DropShadowEffect ShadowDepth="1"/>
+            </TextBlock.Effect>
+        </TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="17.5" Margin="600,192.5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="UD Digi Kyokasho NK-B" Foreground="White" Text="Prime Video" TextAlignment="Center">
+            <TextBlock.Effect>
+                <DropShadowEffect ShadowDepth="1"/>
+            </TextBlock.Effect>
+        </TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="17.5" Margin="80,287.5,0,0" TextWrapping="Wrap" Width="120" FontFamily="UD Digi Kyokasho NK-B" VerticalAlignment="Top" Foreground="White" Text="Videos" TextAlignment="Center">
+            <TextBlock.Effect>
+                <DropShadowEffect ShadowDepth="1"/>
+            </TextBlock.Effect></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="17.5" Margin="210,287.5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="UD Digi Kyokasho NK-B" Foreground="White" Text="Pictures" TextAlignment="Center">
+            <TextBlock.Effect>
+                <DropShadowEffect ShadowDepth="1"/>
+            </TextBlock.Effect></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="17.5" Margin="340,287.5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="UD Digi Kyokasho NK-B" Foreground="White" Text="Music" TextAlignment="Center">
+            <TextBlock.Effect>
+                <DropShadowEffect ShadowDepth="1"/>
+            </TextBlock.Effect>
+        </TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="17.5" Margin="470,287.5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="UD Digi Kyokasho NK-B" Foreground="White" Text="Games" TextAlignment="Center">
+            <TextBlock.Effect>
+                <DropShadowEffect ShadowDepth="1"/>
+            </TextBlock.Effect>
+        </TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="17.5" Margin="600,287.5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="UD Digi Kyokasho NK-B" Foreground="White" Text="Pokemon TV" TextAlignment="Center">
+            <TextBlock.Effect>
+                <DropShadowEffect ShadowDepth="1"/>
+            </TextBlock.Effect>
+        </TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="17.5" Margin="80,382.5,0,0" TextWrapping="Wrap" Width="120" FontFamily="UD Digi Kyokasho NK-B" VerticalAlignment="Top" Foreground="White" TextAlignment="Center" Text="Hulu">
+            <TextBlock.Effect>
+                <DropShadowEffect ShadowDepth="1"/>
+            </TextBlock.Effect></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="17.5" Margin="210,382.5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="UD Digi Kyokasho NK-B" Foreground="White" TextAlignment="Center" Text="PlayStation">
+            <TextBlock.Effect>
+                <DropShadowEffect ShadowDepth="1"/>
+            </TextBlock.Effect></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="17.5" Margin="340,382.5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="UD Digi Kyokasho NK-B" Foreground="White" Text="Cable TV" TextAlignment="Center">
+            <TextBlock.Effect>
+                <DropShadowEffect ShadowDepth="1"/>
+            </TextBlock.Effect>
+        </TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="17.5" Margin="470,382.5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="UD Digi Kyokasho NK-B" Foreground="White" Text="Lemon TV" TextAlignment="Center">
+            <TextBlock.Effect>
+                <DropShadowEffect ShadowDepth="1"/>
+            </TextBlock.Effect>
+        </TextBlock>
+        <TextBlock HorizontalAlignment="Left" Height="17.5" Margin="600,382.5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="UD Digi Kyokasho NK-B" Foreground="White" Text="Store" TextAlignment="Center">
+            <TextBlock.Effect>
+                <DropShadowEffect ShadowDepth="1"/>
+            </TextBlock.Effect>
+        </TextBlock>
 
     </Grid>
 </Window>
