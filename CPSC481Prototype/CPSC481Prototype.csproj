@@ -97,22 +97,22 @@
     <Resource Include="logo-youtube.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="youtube.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="settings.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="profile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="youtube.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="spotify.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="crunchyroll.png" />
+    <Resource Include="settings.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="netflix.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="crunchyroll.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="twitch.png" />
@@ -124,7 +124,49 @@
     <Resource Include="primevideo.png" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="movies.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="pictures.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="music.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="games.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="pokemon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="hulu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="playstation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="cable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="lemon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="store.png" />
+  </ItemGroup>
+  <ItemGroup>
     <Resource Include="background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="background2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="background3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="background4.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -183,71 +183,77 @@
         </Button>
         <TextBlock HorizontalAlignment="Left" Height="17.5" Margin="80,192.5,0,0" TextWrapping="Wrap" Width="120" FontFamily="UD Digi Kyokasho NK-B" VerticalAlignment="Top" Foreground="White" Text="Netflix" TextAlignment="Center">
             <TextBlock.Effect>
-                <DropShadowEffect ShadowDepth="1"/>
-            </TextBlock.Effect></TextBlock>
+                <DropShadowEffect ShadowDepth="1" BlurRadius="3" Direction="340"/>
+            </TextBlock.Effect>
+        </TextBlock>
         <TextBlock HorizontalAlignment="Left" Height="17.5" Margin="210,192.5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="UD Digi Kyokasho NK-B" Foreground="White" Text="CrunchyRoll" TextAlignment="Center">
             <TextBlock.Effect>
-                <DropShadowEffect ShadowDepth="1"/>
-            </TextBlock.Effect></TextBlock>
+                <DropShadowEffect ShadowDepth="1" BlurRadius="3" Direction="340"/>
+            </TextBlock.Effect>
+        </TextBlock>
         <TextBlock HorizontalAlignment="Left" Height="17.5" Margin="340,192.5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="UD Digi Kyokasho NK-B" Foreground="White" Text="Twitch" TextAlignment="Center">
             <TextBlock.Effect>
-                <DropShadowEffect ShadowDepth="1"/>
+                <DropShadowEffect ShadowDepth="1" BlurRadius="3" Direction="340"/>
             </TextBlock.Effect>
         </TextBlock>
         <TextBlock HorizontalAlignment="Left" Height="17.5" Margin="470,192.5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="UD Digi Kyokasho NK-B" Foreground="White" Text="Google Play Movies" TextAlignment="Center">
             <TextBlock.Effect>
-                <DropShadowEffect ShadowDepth="1"/>
+                <DropShadowEffect ShadowDepth="1" BlurRadius="3" Direction="340"/>
             </TextBlock.Effect>
         </TextBlock>
         <TextBlock HorizontalAlignment="Left" Height="17.5" Margin="600,192.5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="UD Digi Kyokasho NK-B" Foreground="White" Text="Prime Video" TextAlignment="Center">
             <TextBlock.Effect>
-                <DropShadowEffect ShadowDepth="1"/>
+                <DropShadowEffect ShadowDepth="1" BlurRadius="3" Direction="340"/>
             </TextBlock.Effect>
         </TextBlock>
         <TextBlock HorizontalAlignment="Left" Height="17.5" Margin="80,287.5,0,0" TextWrapping="Wrap" Width="120" FontFamily="UD Digi Kyokasho NK-B" VerticalAlignment="Top" Foreground="White" Text="Videos" TextAlignment="Center">
             <TextBlock.Effect>
-                <DropShadowEffect ShadowDepth="1"/>
-            </TextBlock.Effect></TextBlock>
+                <DropShadowEffect ShadowDepth="1" BlurRadius="3" Direction="340"/>
+            </TextBlock.Effect>
+        </TextBlock>
         <TextBlock HorizontalAlignment="Left" Height="17.5" Margin="210,287.5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="UD Digi Kyokasho NK-B" Foreground="White" Text="Pictures" TextAlignment="Center">
             <TextBlock.Effect>
-                <DropShadowEffect ShadowDepth="1"/>
-            </TextBlock.Effect></TextBlock>
+                <DropShadowEffect ShadowDepth="1" BlurRadius="3" Direction="340"/>
+            </TextBlock.Effect>
+        </TextBlock>
         <TextBlock HorizontalAlignment="Left" Height="17.5" Margin="340,287.5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="UD Digi Kyokasho NK-B" Foreground="White" Text="Music" TextAlignment="Center">
             <TextBlock.Effect>
-                <DropShadowEffect ShadowDepth="1"/>
+                <DropShadowEffect ShadowDepth="1" BlurRadius="3" Direction="340"/>
             </TextBlock.Effect>
         </TextBlock>
         <TextBlock HorizontalAlignment="Left" Height="17.5" Margin="470,287.5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="UD Digi Kyokasho NK-B" Foreground="White" Text="Games" TextAlignment="Center">
             <TextBlock.Effect>
-                <DropShadowEffect ShadowDepth="1"/>
+                <DropShadowEffect ShadowDepth="1" BlurRadius="3" Direction="340"/>
             </TextBlock.Effect>
         </TextBlock>
         <TextBlock HorizontalAlignment="Left" Height="17.5" Margin="600,287.5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="UD Digi Kyokasho NK-B" Foreground="White" Text="Pokemon TV" TextAlignment="Center">
             <TextBlock.Effect>
-                <DropShadowEffect ShadowDepth="1"/>
+                <DropShadowEffect ShadowDepth="1" BlurRadius="3" Direction="340"/>
             </TextBlock.Effect>
         </TextBlock>
         <TextBlock HorizontalAlignment="Left" Height="17.5" Margin="80,382.5,0,0" TextWrapping="Wrap" Width="120" FontFamily="UD Digi Kyokasho NK-B" VerticalAlignment="Top" Foreground="White" TextAlignment="Center" Text="Hulu">
             <TextBlock.Effect>
-                <DropShadowEffect ShadowDepth="1"/>
-            </TextBlock.Effect></TextBlock>
+                <DropShadowEffect ShadowDepth="1" BlurRadius="3" Direction="340"/>
+            </TextBlock.Effect>
+        </TextBlock>
         <TextBlock HorizontalAlignment="Left" Height="17.5" Margin="210,382.5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="UD Digi Kyokasho NK-B" Foreground="White" TextAlignment="Center" Text="PlayStation">
             <TextBlock.Effect>
-                <DropShadowEffect ShadowDepth="1"/>
-            </TextBlock.Effect></TextBlock>
+                <DropShadowEffect ShadowDepth="1" BlurRadius="3" Direction="340"/>
+            </TextBlock.Effect>
+        </TextBlock>
         <TextBlock HorizontalAlignment="Left" Height="17.5" Margin="340,382.5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="UD Digi Kyokasho NK-B" Foreground="White" Text="Cable TV" TextAlignment="Center">
             <TextBlock.Effect>
-                <DropShadowEffect ShadowDepth="1"/>
+                <DropShadowEffect ShadowDepth="1" BlurRadius="3" Direction="340"/>
             </TextBlock.Effect>
         </TextBlock>
         <TextBlock HorizontalAlignment="Left" Height="17.5" Margin="470,382.5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="UD Digi Kyokasho NK-B" Foreground="White" Text="Lemon TV" TextAlignment="Center">
             <TextBlock.Effect>
-                <DropShadowEffect ShadowDepth="1"/>
+                <DropShadowEffect ShadowDepth="1" BlurRadius="3" Direction="340"/>
             </TextBlock.Effect>
         </TextBlock>
         <TextBlock HorizontalAlignment="Left" Height="17.5" Margin="600,382.5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="UD Digi Kyokasho NK-B" Foreground="White" Text="Store" TextAlignment="Center">
             <TextBlock.Effect>
-                <DropShadowEffect ShadowDepth="1"/>
+                <DropShadowEffect ShadowDepth="1" BlurRadius="3" Direction="340"/>
             </TextBlock.Effect>
         </TextBlock>
 
