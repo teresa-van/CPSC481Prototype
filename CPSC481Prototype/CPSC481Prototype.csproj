@@ -174,8 +174,5 @@
   <ItemGroup>
     <Resource Include="crackle.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Resource Include="contentplaceholder.png" />
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
