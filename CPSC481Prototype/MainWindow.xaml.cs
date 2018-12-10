@@ -23,43 +23,23 @@ namespace CPSC481Prototype
 		public MainWindow()
 		{
 			InitializeComponent();
-            MainGrid.Children[3].Visibility = Visibility.Hidden;
-            MainGrid.Children[4].Visibility = Visibility.Hidden;
-            MainGrid.Children[5].Visibility = Visibility.Hidden;
+            Homepage_Page2.Visibility = Visibility.Hidden;
+            ProfileFolder.Visibility = Visibility.Hidden;
+            ContextMenu.Visibility = Visibility.Hidden;
         }
 
-        private void HandleMouseWheel(MouseWheelEventArgs e)
+        private void Homepage_MouseWheel(object sender, MouseWheelEventArgs e)
         {
             if (e.Delta > 0)
             {
-                MainGrid.Children[2].Visibility = Visibility.Visible;
-                MainGrid.Children[3].Visibility = Visibility.Hidden;
+                Homepage_Page1.Visibility = Visibility.Visible;
+                Homepage_Page2.Visibility = Visibility.Hidden;
             }
             else if (e.Delta < 0)
             {
-                MainGrid.Children[2].Visibility = Visibility.Hidden;
-                MainGrid.Children[3].Visibility = Visibility.Visible;
+                Homepage_Page1.Visibility = Visibility.Hidden;
+                Homepage_Page2.Visibility = Visibility.Visible;
             }
-        }
-
-        private void Homepage_BG_MouseWheel(object sender, MouseWheelEventArgs e)
-        {
-            HandleMouseWheel(e);
-        }
-
-        private void Dock_MouseWheel(object sender, MouseWheelEventArgs e)
-        {
-            HandleMouseWheel(e);
-        }
-
-        private void Homepage_Page1_MouseWheel(object sender, MouseWheelEventArgs e)
-        {
-            HandleMouseWheel(e);
-        }
-
-        private void Homepage_Page2_MouseWheel(object sender, MouseWheelEventArgs e)
-        {
-            HandleMouseWheel(e);
         }
 
         bool profile_open = false;
@@ -67,27 +47,28 @@ namespace CPSC481Prototype
         {
             if (profile_open)
             {
-                MainGrid.Children[4].Visibility = Visibility.Hidden;
+                ProfileFolder.Visibility = Visibility.Hidden;
                 profile_open = false;
             }
             else
             {
-                MainGrid.Children[4].Visibility = Visibility.Visible;
+                ProfileFolder.Visibility = Visibility.Visible;
                 profile_open = true;
             }           
         }
+
         bool contextmenu_open = false;
         private void Window_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.Key == Key.D1)
                 if (contextmenu_open)
                 {
-                    MainGrid.Children[5].Visibility = Visibility.Hidden;
+                    ContextMenu.Visibility = Visibility.Hidden;
                     contextmenu_open = false;
                 }
                 else
                 {
-                    MainGrid.Children[5].Visibility = Visibility.Visible;
+                    ContextMenu.Visibility = Visibility.Visible;
                     contextmenu_open = true;
                 }
         }
