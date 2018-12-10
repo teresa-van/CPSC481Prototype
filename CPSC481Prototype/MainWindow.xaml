@@ -7,10 +7,33 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800" KeyDown="Window_KeyDown">
     <Grid x:Name="MainGrid" Background="Black">
-        <Grid x:Name="Content" HorizontalAlignment="Left" Height="420.714" VerticalAlignment="Top" Width="795.179" Margin="0,0,-0.893,0" d:IsHidden="True">
-            <Grid.Background>
-                <ImageBrush ImageSource="contentplaceholder.png"/>
-            </Grid.Background>
+
+        <Grid x:Name="Content" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" d:IsHidden="True">
+            <Grid x:Name="GenericContent" HorizontalAlignment="Left" Height="420.714" VerticalAlignment="Top" Width="795.179" Margin="0,0,-695.179,-320.714" d:IsHidden="True">
+                <Grid.Background>
+                    <ImageBrush ImageSource="contentplaceholder.png"/>
+                </Grid.Background>
+            </Grid>
+            <Grid x:Name="NetflixContent" HorizontalAlignment="Left" Height="420.714" VerticalAlignment="Top" Width="795.179" Margin="0,0,-695.179,-320.714" d:IsHidden="True">
+                <Grid.Background>
+                    <ImageBrush ImageSource="netflixcontent.jpg"/>
+                </Grid.Background>
+            </Grid>
+            <Grid x:Name="YouTubeContent" HorizontalAlignment="Left" Height="420.714" VerticalAlignment="Top" Width="795.179" Margin="0,0,-695.179,-320.714" d:IsHidden="True">
+                <Grid.Background>
+                    <ImageBrush ImageSource="youtubecontent.jpg"/>
+                </Grid.Background>
+            </Grid>
+            <Grid x:Name="SpotifyContent" HorizontalAlignment="Left" Height="420.714" VerticalAlignment="Top" Width="795.179" Margin="0,0,-695.179,-320.714" d:IsHidden="True">
+                <Grid.Background>
+                    <ImageBrush ImageSource="spotifycontent.jpg"/>
+                </Grid.Background>
+            </Grid>
+            <Grid x:Name="CrunchyrollContent" HorizontalAlignment="Left" Height="420.714" VerticalAlignment="Top" Width="795.179" Margin="0,0,-695.179,-320.714" d:IsHidden="True">
+                <Grid.Background>
+                    <ImageBrush ImageSource="crunchyrollcontent.png"/>
+                </Grid.Background>
+            </Grid>
         </Grid>
 
         <Grid x:Name="Homepage" Background="Transparent" HorizontalAlignment="Left" Height="421.429" VerticalAlignment="Top" Width="795.179" Margin="0,0,-0.893,0" MouseWheel="Homepage_MouseWheel">
@@ -29,21 +52,21 @@
                 </Grid.Background>
 
             </Grid>
-            <Grid x:Name="Homepage_Page1" Margin="0,0,-694.286,-321.429" d:IsHidden="True">
-                <Button x:Name="___Button__Netflix1" Content="" HorizontalAlignment="Left" Height="67.5" Margin="80,120,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}" Click="___Button__Netflix1_Click">
+            <Grid x:Name="Homepage_Page1" Margin="0,0,-694.286,-321.429">
+                <Button x:Name="___Button__Profile2" Content="" HorizontalAlignment="Left" Height="67.5" Margin="80,120,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.5,0.5" BorderThickness="1" BorderBrush="{x:Null}" Click="___Button__Profile2_Click_1">
                     <Button.Effect>
                         <DropShadowEffect ShadowDepth="1"/>
                     </Button.Effect>
                     <Button.Background>
-                        <ImageBrush ImageSource="netflix.png"/>
+                        <ImageBrush ImageSource="profile.png"/>
                     </Button.Background>
                 </Button>
-                <Button x:Name="___Button__CrunchyRoll1" Content="" HorizontalAlignment="Left" Height="67.5" Margin="210,120,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}" Click="___Button__CrunchyRoll1_Click">
+                <Button x:Name="___Button__Settings2" Content="" HorizontalAlignment="Left" Height="67.5" Margin="210,120,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}">
                     <Button.Effect>
                         <DropShadowEffect ShadowDepth="1"/>
                     </Button.Effect>
                     <Button.Background>
-                        <ImageBrush ImageSource="crunchyroll.png"/>
+                        <ImageBrush ImageSource="settings.png"/>
                     </Button.Background>
                 </Button>
                 <Button x:Name="___Button__Twitch1" Content="" HorizontalAlignment="Left" Height="67.5" Margin="340,120,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}" Click="___Button__Twitch1_Click">
@@ -150,21 +173,19 @@
                         <DropShadowEffect ShadowDepth="1"/>
                     </Button.Effect>
                 </Button>
-                <TextBlock HorizontalAlignment="Left" Height="17.5" Margin="80,192.5,0,0" TextWrapping="Wrap" Width="120" FontFamily="UD Digi Kyokasho NK-B" VerticalAlignment="Top" Foreground="White" Text="Netflix" TextAlignment="Center">
+                <TextBlock HorizontalAlignment="Left" Height="17.5" Margin="80,192.5,0,0" TextWrapping="Wrap" Width="120" FontFamily="UD Digi Kyokasho NK-B" VerticalAlignment="Top" Foreground="White" Text="Profile" TextAlignment="Center">
                     <TextBlock.Effect>
                         <DropShadowEffect ShadowDepth="1" BlurRadius="3" Direction="340"/>
                     </TextBlock.Effect>
                 </TextBlock>
-                <TextBlock HorizontalAlignment="Left" Height="17.5" Margin="210,192.5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="UD Digi Kyokasho NK-B" Foreground="White" Text="Crunchyroll" TextAlignment="Center">
+                <TextBlock HorizontalAlignment="Left" Height="17.5" Margin="340,192.5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="UD Digi Kyokasho NK-B" Foreground="White" TextAlignment="Center" Text="Twitch">
                     <TextBlock.Effect>
                         <DropShadowEffect ShadowDepth="1" BlurRadius="3" Direction="340"/>
-                    </TextBlock.Effect>
-                </TextBlock>
-                <TextBlock HorizontalAlignment="Left" Height="17.5" Margin="340,192.5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="UD Digi Kyokasho NK-B" Foreground="White" Text="Twitch" TextAlignment="Center">
+                    </TextBlock.Effect></TextBlock>
+                <TextBlock HorizontalAlignment="Left" Height="17.5" Margin="210,192.5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="UD Digi Kyokasho NK-B" Foreground="White" TextAlignment="Center" Text="Settings">
                     <TextBlock.Effect>
                         <DropShadowEffect ShadowDepth="1" BlurRadius="3" Direction="340"/>
-                    </TextBlock.Effect>
-                </TextBlock>
+                    </TextBlock.Effect></TextBlock>
                 <TextBlock HorizontalAlignment="Left" Height="17.5" Margin="470,192.5,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" FontFamily="UD Digi Kyokasho NK-B" Foreground="White" Text="Google Play Movies" TextAlignment="Center">
                     <TextBlock.Effect>
                         <DropShadowEffect ShadowDepth="1" BlurRadius="3" Direction="340"/>
@@ -227,7 +248,7 @@
                 </TextBlock>
 
             </Grid>
-            <Grid x:Name="Homepage_Page2" Margin="0,0,-694.286,-321.429">
+            <Grid x:Name="Homepage_Page2" Margin="0,0,-694.286,-321.429" d:IsHidden="True">
                 <Button x:Name="___Button__Netflix1_Copy" Content="" HorizontalAlignment="Left" Height="67.5" Margin="80,120,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}" Click="___Button__Netflix1_Copy_Click">
                     <Button.Effect>
                         <DropShadowEffect ShadowDepth="1"/>
@@ -335,13 +356,12 @@
                     <SolidColorBrush Color="DarkSlateGray" Opacity="0.9"/>
                 </Rectangle.Fill>
             </Rectangle>
-
-            <Button x:Name="___Button__Profile2" Content="" HorizontalAlignment="Left" Height="67.5" Margin="147.5,25,0,0" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.5,0.5" BorderThickness="1" BorderBrush="{x:Null}" Click="___Button__Profile2_Click_1">
+            <Button x:Name="___Button__Netflix1" Content="" HorizontalAlignment="Left" Height="67.5" Margin="146.452,25,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}" Click="___Button__Netflix1_Click">
                 <Button.Effect>
                     <DropShadowEffect ShadowDepth="1"/>
                 </Button.Effect>
                 <Button.Background>
-                    <ImageBrush ImageSource="profile.png"/>
+                    <ImageBrush ImageSource="netflix.png"/>
                 </Button.Background>
             </Button>
             <Button x:Name="___Button__YouTube2" Content="" HorizontalAlignment="Left" Height="67.5" Margin="277.5,25,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}" Click="___Button__YouTube2_Click">
@@ -352,7 +372,7 @@
                     <ImageBrush ImageSource="youtube.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="___Button__Spotify2" Content="" HorizontalAlignment="Left" Height="67.5" Margin="407.5,25,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}" Click="___Button__Spotify2_Click">
+            <Button x:Name="___Button__Spotify2" HorizontalAlignment="Left" Height="67.5" Margin="407.5,25,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}" Click="___Button__Spotify2_Click">
                 <Button.Effect>
                     <DropShadowEffect ShadowDepth="1"/>
                 </Button.Effect>
@@ -360,12 +380,12 @@
                     <ImageBrush ImageSource="spotify.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="___Button__Settings2" Content="" HorizontalAlignment="Left" Height="67.5" Margin="537.5,25,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}">
+            <Button x:Name="___Button__CrunchyRoll1" Content="" HorizontalAlignment="Left" Height="67.5" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}" Click="___Button__CrunchyRoll1_Click" Margin="538.024,25,0,0">
                 <Button.Effect>
                     <DropShadowEffect ShadowDepth="1"/>
                 </Button.Effect>
                 <Button.Background>
-                    <ImageBrush ImageSource="settings.png"/>
+                    <ImageBrush ImageSource="crunchyroll.png"/>
                 </Button.Background>
             </Button>
 

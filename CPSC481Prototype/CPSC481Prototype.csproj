@@ -177,5 +177,17 @@
   <ItemGroup>
     <Resource Include="contentplaceholder.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="netflixcontent.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="youtubecontent.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="spotifycontent.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="crunchyrollcontent.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

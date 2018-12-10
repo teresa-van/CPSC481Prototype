@@ -36,10 +36,7 @@ namespace CPSC481Prototype
             {
                 Dock.Visibility = Visibility.Visible;
                 if (dock_visible)
-                {
                     Homepage.Visibility = Visibility.Visible;
-                    Content.Visibility = Visibility.Hidden;
-                }
                 dock_visible = true;
             }
 
@@ -85,102 +82,112 @@ namespace CPSC481Prototype
             }           
         }
 
-        private void ShowContent()
+        private void ShowContent(string content)
         {
             Homepage.Visibility = Visibility.Hidden;
             Dock.Visibility = Visibility.Hidden;
-            Content.Visibility = Visibility.Visible;
             dock_visible = false;
+
+            YouTubeContent.Visibility = Visibility.Hidden;
+            SpotifyContent.Visibility = Visibility.Hidden;
+            NetflixContent.Visibility = Visibility.Hidden;
+            CrunchyrollContent.Visibility = Visibility.Hidden;
+
+            if (content == "YouTube") YouTubeContent.Visibility = Visibility.Visible;
+            else if (content == "Spotify") SpotifyContent.Visibility = Visibility.Visible;
+            else if (content == "Netflix") NetflixContent.Visibility = Visibility.Visible;
+            else if (content == "Crunchyroll") CrunchyrollContent.Visibility = Visibility.Visible;
+            else GenericContent.Visibility = Visibility.Visible;
         }
 
         private void ___Button__YouTube2_Click(object sender, RoutedEventArgs e)
         {
-            ShowContent();
+            ShowContent("YouTube");
         }
 
         private void ___Button__Spotify2_Click(object sender, RoutedEventArgs e)
         {
-            ShowContent();
+            ShowContent("Spotify");
         }
 
         private void ___Button__Netflix1_Click(object sender, RoutedEventArgs e)
         {
-            ShowContent();
+            ShowContent("Netflix");
         }
 
         private void ___Button__CrunchyRoll1_Click(object sender, RoutedEventArgs e)
         {
-            ShowContent();
+            ShowContent("Crunchyroll");
         }
 
         private void ___Button__Twitch1_Click(object sender, RoutedEventArgs e)
         {
-            ShowContent();
+            ShowContent("Generic");
         }
 
         private void ___Button__Google_Play1_Click(object sender, RoutedEventArgs e)
         {
-            ShowContent();
+            ShowContent("Generic");
         }
 
         private void ___Button__Prime_Video1_Click(object sender, RoutedEventArgs e)
         {
-            ShowContent();
+            ShowContent("Generic");
         }
 
         private void ___Button__Local_Videos1_Click(object sender, RoutedEventArgs e)
         {
-            ShowContent();
+            ShowContent("Generic");
         }
 
         private void ___Button__Local_Pictures1_Click(object sender, RoutedEventArgs e)
         {
-            ShowContent();
+            ShowContent("Generic");
         }
 
         private void ___Button__Local_Music1_Click(object sender, RoutedEventArgs e)
         {
-            ShowContent();
+            ShowContent("Generic");
         }
 
         private void ___Button__Local_Games1_Click(object sender, RoutedEventArgs e)
         {
-            ShowContent();
+            ShowContent("Generic");
         }
 
         private void ___Button__Pokemon1_Click(object sender, RoutedEventArgs e)
         {
-            ShowContent();
+            ShowContent("Generic");
         }
 
         private void ___Button__Hulu1_Click(object sender, RoutedEventArgs e)
         {
-            ShowContent();
+            ShowContent("Generic");
         }
 
         private void ___Button__PlayStation1_Click(object sender, RoutedEventArgs e)
         {
-            ShowContent();
+            ShowContent("Generic");
         }
 
         private void ___Button__Cable_TV1_Click(object sender, RoutedEventArgs e)
         {
-            ShowContent();
+            ShowContent("Generic");
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            ShowContent();
+            ShowContent("Generic");
         }
 
         private void ___Button__Netflix1_Copy_Click(object sender, RoutedEventArgs e)
         {
-            ShowContent();
+            ShowContent("Generic");
         }
 
         private void ___Button__CrunchyRoll1_Copy_Click(object sender, RoutedEventArgs e)
         {
-            ShowContent();
+            ShowContent("Generic");
         }
     }
 }
