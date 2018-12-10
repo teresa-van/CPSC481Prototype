@@ -157,16 +157,22 @@
     <Resource Include="background.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="background2.png" />
+    <Resource Include="history.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="background.jpg" />
+    <Resource Include="playlists.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="background3.jpg" />
+    <Resource Include="subscriptions.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="background4.jpg" />
+    <Resource Include="statistics.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ted.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="crackle.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
