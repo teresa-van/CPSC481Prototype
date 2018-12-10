@@ -221,6 +221,16 @@ namespace CPSC481Prototype
             ShowContent("Generic");
         }
 
+        private void ___Button__Spotify1_Click(object sender, RoutedEventArgs e)
+        {
+            ShowContent("Generic");
+        }
+
+        private void ___Button__Settings1_Click(object sender, RoutedEventArgs e)
+        {
+            ShowContent("Generic");
+        }
+
         private void ___Button__Profile1_Click(object sender, RoutedEventArgs e)
         {
             Homepage.Visibility = Visibility.Hidden;

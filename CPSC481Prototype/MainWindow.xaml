@@ -462,7 +462,7 @@
                         <ImageBrush ImageSource="playlists.png"/>
                     </Button.Background>
                 </Button>
-                <Button x:Name="___Button__Spotify1" Content="" HorizontalAlignment="Left" Height="67.5" Margin="262.501,256.786,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}">
+                <Button x:Name="___Button__Spotify1" Content="" HorizontalAlignment="Left" Height="67.5" Margin="262.501,256.786,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}" Click="___Button__Spotify1_Click">
                     <Button.Effect>
                         <DropShadowEffect ShadowDepth="1"/>
                     </Button.Effect>
@@ -470,7 +470,7 @@
                         <ImageBrush ImageSource="subscriptions.png"/>
                     </Button.Background>
                 </Button>
-                <Button x:Name="___Button__Settings1" Content="" HorizontalAlignment="Left" Height="67.5" Margin="413.214,256.786,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}">
+                <Button x:Name="___Button__Settings1" Content="" HorizontalAlignment="Left" Height="67.5" Margin="413.214,256.786,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}" Click="___Button__Settings1_Click">
                     <Button.Effect>
                         <DropShadowEffect ShadowDepth="1"/>
                     </Button.Effect>
