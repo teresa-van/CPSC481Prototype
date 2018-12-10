@@ -1,0 +1,15 @@
+C:\Users\mario\Desktop\CPSC481Prototype-master\CPSC481Prototype\bin\Debug\CPSC481Prototype.exe.config
+C:\Users\mario\Desktop\CPSC481Prototype-master\CPSC481Prototype\bin\Debug\CPSC481Prototype.exe
+C:\Users\mario\Desktop\CPSC481Prototype-master\CPSC481Prototype\bin\Debug\CPSC481Prototype.pdb
+C:\Users\mario\Desktop\CPSC481Prototype-master\CPSC481Prototype\obj\Debug\CPSC481Prototype.csprojAssemblyReference.cache
+C:\Users\mario\Desktop\CPSC481Prototype-master\CPSC481Prototype\obj\Debug\MainWindow.g.cs
+C:\Users\mario\Desktop\CPSC481Prototype-master\CPSC481Prototype\obj\Debug\App.g.cs
+C:\Users\mario\Desktop\CPSC481Prototype-master\CPSC481Prototype\obj\Debug\CPSC481Prototype_MarkupCompile.cache
+C:\Users\mario\Desktop\CPSC481Prototype-master\CPSC481Prototype\obj\Debug\CPSC481Prototype_MarkupCompile.lref
+C:\Users\mario\Desktop\CPSC481Prototype-master\CPSC481Prototype\obj\Debug\MainWindow.baml
+C:\Users\mario\Desktop\CPSC481Prototype-master\CPSC481Prototype\obj\Debug\CPSC481Prototype.g.resources
+C:\Users\mario\Desktop\CPSC481Prototype-master\CPSC481Prototype\obj\Debug\CPSC481Prototype.Properties.Resources.resources
+C:\Users\mario\Desktop\CPSC481Prototype-master\CPSC481Prototype\obj\Debug\CPSC481Prototype.csproj.GenerateResource.cache
+C:\Users\mario\Desktop\CPSC481Prototype-master\CPSC481Prototype\obj\Debug\CPSC481Prototype.csproj.CoreCompileInputs.cache
+C:\Users\mario\Desktop\CPSC481Prototype-master\CPSC481Prototype\obj\Debug\CPSC481Prototype.exe
+C:\Users\mario\Desktop\CPSC481Prototype-master\CPSC481Prototype\obj\Debug\CPSC481Prototype.pdb
