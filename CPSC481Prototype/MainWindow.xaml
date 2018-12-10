@@ -7,6 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800" KeyDown="Window_KeyDown">
     <Grid x:Name="MainGrid" Background="Black">
+        <Grid x:Name="Content" HorizontalAlignment="Left" Height="420.714" VerticalAlignment="Top" Width="795.179" Margin="0,0,-0.893,0" d:IsHidden="True">
+            <Grid.Background>
+                <ImageBrush ImageSource="contentplaceholder.png"/>
+            </Grid.Background>
+        </Grid>
+
         <Grid x:Name="Homepage" Background="Transparent" HorizontalAlignment="Left" Height="421.429" VerticalAlignment="Top" Width="795.179" Margin="0,0,-0.893,0" MouseWheel="Homepage_MouseWheel">
             <Grid x:Name="Homepage_BG" Margin="0,0,0.893,0">
                 <Grid.Background>
@@ -23,8 +29,8 @@
                 </Grid.Background>
 
             </Grid>
-            <Grid x:Name="Homepage_Page1" Margin="0,0,-694.286,-321.429">
-                <Button x:Name="___Button__Netflix1" Content="" HorizontalAlignment="Left" Height="67.5" Margin="80,120,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}">
+            <Grid x:Name="Homepage_Page1" Margin="0,0,-694.286,-321.429" d:IsHidden="True">
+                <Button x:Name="___Button__Netflix1" Content="" HorizontalAlignment="Left" Height="67.5" Margin="80,120,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}" Click="___Button__Netflix1_Click">
                     <Button.Effect>
                         <DropShadowEffect ShadowDepth="1"/>
                     </Button.Effect>
@@ -32,7 +38,7 @@
                         <ImageBrush ImageSource="netflix.png"/>
                     </Button.Background>
                 </Button>
-                <Button x:Name="___Button__CrunchyRoll1" Content="" HorizontalAlignment="Left" Height="67.5" Margin="210,120,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}">
+                <Button x:Name="___Button__CrunchyRoll1" Content="" HorizontalAlignment="Left" Height="67.5" Margin="210,120,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}" Click="___Button__CrunchyRoll1_Click">
                     <Button.Effect>
                         <DropShadowEffect ShadowDepth="1"/>
                     </Button.Effect>
@@ -40,7 +46,7 @@
                         <ImageBrush ImageSource="crunchyroll.png"/>
                     </Button.Background>
                 </Button>
-                <Button x:Name="___Button__Twitch1" Content="" HorizontalAlignment="Left" Height="67.5" Margin="340,120,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}">
+                <Button x:Name="___Button__Twitch1" Content="" HorizontalAlignment="Left" Height="67.5" Margin="340,120,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}" Click="___Button__Twitch1_Click">
                     <Button.Effect>
                         <DropShadowEffect ShadowDepth="1"/>
                     </Button.Effect>
@@ -48,7 +54,7 @@
                         <ImageBrush ImageSource="twitch.png"/>
                     </Button.Background>
                 </Button>
-                <Button x:Name="___Button__Google_Play1" Content="" HorizontalAlignment="Left" Height="67.5" Margin="470,120,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}">
+                <Button x:Name="___Button__Google_Play1" Content="" HorizontalAlignment="Left" Height="67.5" Margin="470,120,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}" Click="___Button__Google_Play1_Click">
                     <Button.Effect>
                         <DropShadowEffect ShadowDepth="1"/>
                     </Button.Effect>
@@ -56,7 +62,7 @@
                         <ImageBrush ImageSource="googleplaymovies.png"/>
                     </Button.Background>
                 </Button>
-                <Button x:Name="___Button__Prime_Video1" Content="" HorizontalAlignment="Left" Height="67.5" Margin="600,120,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}">
+                <Button x:Name="___Button__Prime_Video1" Content="" HorizontalAlignment="Left" Height="67.5" Margin="600,120,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}" Click="___Button__Prime_Video1_Click">
                     <Button.Effect>
                         <DropShadowEffect ShadowDepth="1"/>
                     </Button.Effect>
@@ -64,7 +70,7 @@
                         <ImageBrush ImageSource="primevideo.png"/>
                     </Button.Background>
                 </Button>
-                <Button x:Name="___Button__Local_Videos1" Content="" HorizontalAlignment="Left" Height="67.5" Margin="80,215,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}">
+                <Button x:Name="___Button__Local_Videos1" Content="" HorizontalAlignment="Left" Height="67.5" Margin="80,215,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}" Click="___Button__Local_Videos1_Click">
                     <Button.Effect>
                         <DropShadowEffect ShadowDepth="1"/>
                     </Button.Effect>
@@ -72,7 +78,7 @@
                         <ImageBrush ImageSource="movies.png"/>
                     </Button.Background>
                 </Button>
-                <Button x:Name="___Button__Local_Pictures1" Content="" HorizontalAlignment="Left" Height="67.5" Margin="210,215,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}">
+                <Button x:Name="___Button__Local_Pictures1" Content="" HorizontalAlignment="Left" Height="67.5" Margin="210,215,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}" Click="___Button__Local_Pictures1_Click">
                     <Button.Effect>
                         <DropShadowEffect ShadowDepth="1"/>
                     </Button.Effect>
@@ -80,7 +86,7 @@
                         <ImageBrush ImageSource="pictures.png"/>
                     </Button.Background>
                 </Button>
-                <Button x:Name="___Button__Local_Music1" Content="" HorizontalAlignment="Left" Height="67.5" Margin="340,215,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}">
+                <Button x:Name="___Button__Local_Music1" Content="" HorizontalAlignment="Left" Height="67.5" Margin="340,215,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}" Click="___Button__Local_Music1_Click">
                     <Button.Effect>
                         <DropShadowEffect ShadowDepth="1"/>
                     </Button.Effect>
@@ -88,7 +94,7 @@
                         <ImageBrush ImageSource="music.png"/>
                     </Button.Background>
                 </Button>
-                <Button x:Name="___Button__Local_Games1" Content="" HorizontalAlignment="Left" Height="67.5" Margin="470,215,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}">
+                <Button x:Name="___Button__Local_Games1" Content="" HorizontalAlignment="Left" Height="67.5" Margin="470,215,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}" Click="___Button__Local_Games1_Click">
                     <Button.Effect>
                         <DropShadowEffect ShadowDepth="1"/>
                     </Button.Effect>
@@ -96,7 +102,7 @@
                         <ImageBrush ImageSource="games.png"/>
                     </Button.Background>
                 </Button>
-                <Button x:Name="___Button__Pokemon1" Content="" HorizontalAlignment="Left" Height="67.5" Margin="600,215,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}">
+                <Button x:Name="___Button__Pokemon1" Content="" HorizontalAlignment="Left" Height="67.5" Margin="600,215,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}" Click="___Button__Pokemon1_Click">
                     <Button.Effect>
                         <DropShadowEffect ShadowDepth="1"/>
                     </Button.Effect>
@@ -104,7 +110,7 @@
                         <ImageBrush ImageSource="pokemon.png"/>
                     </Button.Background>
                 </Button>
-                <Button x:Name="___Button__Hulu1" Content="" HorizontalAlignment="Left" Height="67.5" Margin="80,310,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}">
+                <Button x:Name="___Button__Hulu1" Content="" HorizontalAlignment="Left" Height="67.5" Margin="80,310,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}" Click="___Button__Hulu1_Click">
                     <Button.Effect>
                         <DropShadowEffect ShadowDepth="1"/>
                     </Button.Effect>
@@ -112,7 +118,7 @@
                         <ImageBrush ImageSource="hulu.png"/>
                     </Button.Background>
                 </Button>
-                <Button x:Name="___Button__PlayStation1" Content="" HorizontalAlignment="Left" Height="67.5" Margin="210,310,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}">
+                <Button x:Name="___Button__PlayStation1" Content="" HorizontalAlignment="Left" Height="67.5" Margin="210,310,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}" Click="___Button__PlayStation1_Click">
                     <Button.Effect>
                         <DropShadowEffect ShadowDepth="1"/>
                     </Button.Effect>
@@ -120,7 +126,7 @@
                         <ImageBrush ImageSource="playstation.png"/>
                     </Button.Background>
                 </Button>
-                <Button x:Name="___Button__Cable_TV1" Content="" HorizontalAlignment="Left" Height="67.5" Margin="340,310,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}">
+                <Button x:Name="___Button__Cable_TV1" Content="" HorizontalAlignment="Left" Height="67.5" Margin="340,310,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}" Click="___Button__Cable_TV1_Click">
                     <Button.Background>
                         <ImageBrush ImageSource="cable.png"/>
                     </Button.Background>
@@ -128,7 +134,7 @@
                         <DropShadowEffect ShadowDepth="1"/>
                     </Button.Effect>
                 </Button>
-                <Button Content="" HorizontalAlignment="Left" Height="67.5" Margin="470,310,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}">
+                <Button Content="" HorizontalAlignment="Left" Height="67.5" Margin="470,310,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}" Click="Button_Click">
                     <Button.Background>
                         <ImageBrush ImageSource="lemon.png"/>
                     </Button.Background>
@@ -221,8 +227,8 @@
                 </TextBlock>
 
             </Grid>
-            <Grid x:Name="Homepage_Page2" d:IsHidden="True" Margin="0,0,-694.286,-321.429">
-                <Button x:Name="___Button__Netflix1_Copy" Content="" HorizontalAlignment="Left" Height="67.5" Margin="80,120,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}">
+            <Grid x:Name="Homepage_Page2" Margin="0,0,-694.286,-321.429">
+                <Button x:Name="___Button__Netflix1_Copy" Content="" HorizontalAlignment="Left" Height="67.5" Margin="80,120,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}" Click="___Button__Netflix1_Copy_Click">
                     <Button.Effect>
                         <DropShadowEffect ShadowDepth="1"/>
                     </Button.Effect>
@@ -230,7 +236,7 @@
                         <ImageBrush ImageSource="ted.png"/>
                     </Button.Background>
                 </Button>
-                <Button x:Name="___Button__CrunchyRoll1_Copy" Content="" HorizontalAlignment="Left" Height="67.5" Margin="210,120,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}">
+                <Button x:Name="___Button__CrunchyRoll1_Copy" Content="" HorizontalAlignment="Left" Height="67.5" Margin="210,120,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}" Click="___Button__CrunchyRoll1_Copy_Click">
                     <Button.Effect>
                         <DropShadowEffect ShadowDepth="1"/>
                     </Button.Effect>
@@ -338,7 +344,7 @@
                     <ImageBrush ImageSource="profile.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="___Button__YouTube2" Content="" HorizontalAlignment="Left" Height="67.5" Margin="277.5,25,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}">
+            <Button x:Name="___Button__YouTube2" Content="" HorizontalAlignment="Left" Height="67.5" Margin="277.5,25,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}" Click="___Button__YouTube2_Click">
                 <Button.Effect>
                     <DropShadowEffect ShadowDepth="1"/>
                 </Button.Effect>
@@ -346,7 +352,7 @@
                     <ImageBrush ImageSource="youtube.png"/>
                 </Button.Background>
             </Button>
-            <Button x:Name="___Button__Spotify2" Content="" HorizontalAlignment="Left" Height="67.5" Margin="407.5,25,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}">
+            <Button x:Name="___Button__Spotify2" Content="" HorizontalAlignment="Left" Height="67.5" Margin="407.5,25,0,0" VerticalAlignment="Top" Width="120" BorderThickness="1" BorderBrush="{x:Null}" Click="___Button__Spotify2_Click">
                 <Button.Effect>
                     <DropShadowEffect ShadowDepth="1"/>
                 </Button.Effect>

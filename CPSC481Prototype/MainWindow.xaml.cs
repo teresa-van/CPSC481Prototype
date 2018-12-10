@@ -28,6 +28,34 @@ namespace CPSC481Prototype
             ContextMenu.Visibility = Visibility.Hidden;
         }
 
+        bool contextmenu_open = false;
+        bool dock_visible = true;
+        private void Window_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.D1)
+            {
+                Dock.Visibility = Visibility.Visible;
+                if (dock_visible)
+                {
+                    Homepage.Visibility = Visibility.Visible;
+                    Content.Visibility = Visibility.Hidden;
+                }
+                dock_visible = true;
+            }
+
+            if (e.Key == Key.D2)
+                if (contextmenu_open)
+                {
+                    ContextMenu.Visibility = Visibility.Hidden;
+                    contextmenu_open = false;
+                }
+                else
+                {
+                    ContextMenu.Visibility = Visibility.Visible;
+                    contextmenu_open = true;
+                }
+        }
+
         private void Homepage_MouseWheel(object sender, MouseWheelEventArgs e)
         {
             if (e.Delta > 0)
@@ -57,20 +85,102 @@ namespace CPSC481Prototype
             }           
         }
 
-        bool contextmenu_open = false;
-        private void Window_KeyDown(object sender, KeyEventArgs e)
+        private void ShowContent()
         {
-            if (e.Key == Key.D1)
-                if (contextmenu_open)
-                {
-                    ContextMenu.Visibility = Visibility.Hidden;
-                    contextmenu_open = false;
-                }
-                else
-                {
-                    ContextMenu.Visibility = Visibility.Visible;
-                    contextmenu_open = true;
-                }
+            Homepage.Visibility = Visibility.Hidden;
+            Dock.Visibility = Visibility.Hidden;
+            Content.Visibility = Visibility.Visible;
+            dock_visible = false;
+        }
+
+        private void ___Button__YouTube2_Click(object sender, RoutedEventArgs e)
+        {
+            ShowContent();
+        }
+
+        private void ___Button__Spotify2_Click(object sender, RoutedEventArgs e)
+        {
+            ShowContent();
+        }
+
+        private void ___Button__Netflix1_Click(object sender, RoutedEventArgs e)
+        {
+            ShowContent();
+        }
+
+        private void ___Button__CrunchyRoll1_Click(object sender, RoutedEventArgs e)
+        {
+            ShowContent();
+        }
+
+        private void ___Button__Twitch1_Click(object sender, RoutedEventArgs e)
+        {
+            ShowContent();
+        }
+
+        private void ___Button__Google_Play1_Click(object sender, RoutedEventArgs e)
+        {
+            ShowContent();
+        }
+
+        private void ___Button__Prime_Video1_Click(object sender, RoutedEventArgs e)
+        {
+            ShowContent();
+        }
+
+        private void ___Button__Local_Videos1_Click(object sender, RoutedEventArgs e)
+        {
+            ShowContent();
+        }
+
+        private void ___Button__Local_Pictures1_Click(object sender, RoutedEventArgs e)
+        {
+            ShowContent();
+        }
+
+        private void ___Button__Local_Music1_Click(object sender, RoutedEventArgs e)
+        {
+            ShowContent();
+        }
+
+        private void ___Button__Local_Games1_Click(object sender, RoutedEventArgs e)
+        {
+            ShowContent();
+        }
+
+        private void ___Button__Pokemon1_Click(object sender, RoutedEventArgs e)
+        {
+            ShowContent();
+        }
+
+        private void ___Button__Hulu1_Click(object sender, RoutedEventArgs e)
+        {
+            ShowContent();
+        }
+
+        private void ___Button__PlayStation1_Click(object sender, RoutedEventArgs e)
+        {
+            ShowContent();
+        }
+
+        private void ___Button__Cable_TV1_Click(object sender, RoutedEventArgs e)
+        {
+            ShowContent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            ShowContent();
+        }
+
+        private void ___Button__Netflix1_Copy_Click(object sender, RoutedEventArgs e)
+        {
+            ShowContent();
+        }
+
+        private void ___Button__CrunchyRoll1_Copy_Click(object sender, RoutedEventArgs e)
+        {
+            ShowContent();
         }
     }
 }
