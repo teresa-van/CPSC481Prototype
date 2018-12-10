@@ -7,15 +7,15 @@
 *.sln.docstates
 
 # Build results
-[Dd]ebug/
-[Dd]ebugPublic/
-[Rr]elease/
-[Rr]eleases/
-x64/
-build/
-bld/
-[Bb]in/
-[Oo]bj/
+CPSC481Prototype/[Dd]ebug/
+CPSC481Prototype/[Dd]ebugPublic/
+CPSC481Prototype/[Rr]elease/
+CPSC481Prototype/[Rr]eleases/
+CPSC481Prototype/x64/
+CPSC481Prototype/build/
+CPSC481Prototype/bld/
+CPSC481Prototype/[Bb]in/
+CPSC481Prototype/[Oo]bj/
 
 # Roslyn cache directories
 *.ide/
