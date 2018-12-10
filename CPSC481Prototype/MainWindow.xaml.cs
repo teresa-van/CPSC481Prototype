@@ -26,10 +26,16 @@ namespace CPSC481Prototype
             Homepage_Page2.Visibility = Visibility.Hidden;
             ProfileFolder.Visibility = Visibility.Hidden;
             ContextMenu.Visibility = Visibility.Hidden;
+            History.Visibility = Visibility.Hidden;
+            Playlists.Visibility = Visibility.Hidden;
+            MainMenu.Visibility = Visibility.Hidden;
+            ParentalControls.Visibility = Visibility.Hidden;
+            LockScreen.Visibility = Visibility.Hidden;
         }
 
-        bool contextmenu_open = false;
         bool dock_visible = true;
+        bool contextmenu_open = false;
+        bool locked = false;
         private void Window_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.Key == Key.D1)
@@ -50,6 +56,18 @@ namespace CPSC481Prototype
                 {
                     ContextMenu.Visibility = Visibility.Visible;
                     contextmenu_open = true;
+                }
+
+            if (e.Key == Key.D3)
+                if (locked)
+                {
+                    LockScreen.Visibility = Visibility.Hidden;
+                    locked = false;
+                }
+                else
+                {
+                    LockScreen.Visibility = Visibility.Visible;
+                    locked = true;
                 }
         }
 
@@ -87,11 +105,19 @@ namespace CPSC481Prototype
             Homepage.Visibility = Visibility.Hidden;
             Dock.Visibility = Visibility.Hidden;
             dock_visible = false;
+            ProfileFolder.Visibility = Visibility.Hidden;
+            profile_open = false;
 
             YouTubeContent.Visibility = Visibility.Hidden;
             SpotifyContent.Visibility = Visibility.Hidden;
             NetflixContent.Visibility = Visibility.Hidden;
             CrunchyrollContent.Visibility = Visibility.Hidden;
+            GenericContent.Visibility = Visibility.Hidden;
+            History.Visibility = Visibility.Hidden;
+            Playlists.Visibility = Visibility.Hidden;
+            Settings.Visibility = Visibility.Hidden;
+            MainMenu.Visibility = Visibility.Hidden;
+            ParentalControls.Visibility = Visibility.Hidden;
 
             if (content == "YouTube") YouTubeContent.Visibility = Visibility.Visible;
             else if (content == "Spotify") SpotifyContent.Visibility = Visibility.Visible;
@@ -188,6 +214,82 @@ namespace CPSC481Prototype
         private void ___Button__CrunchyRoll1_Copy_Click(object sender, RoutedEventArgs e)
         {
             ShowContent("Generic");
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            ShowContent("Generic");
+        }
+
+        private void ___Button__Profile1_Click(object sender, RoutedEventArgs e)
+        {
+            Homepage.Visibility = Visibility.Hidden;
+            Dock.Visibility = Visibility.Hidden;
+            dock_visible = false;
+            ProfileFolder.Visibility = Visibility.Hidden;
+            profile_open = false;
+
+            YouTubeContent.Visibility = Visibility.Hidden;
+            SpotifyContent.Visibility = Visibility.Hidden;
+            NetflixContent.Visibility = Visibility.Hidden;
+            CrunchyrollContent.Visibility = Visibility.Hidden;
+            GenericContent.Visibility = Visibility.Hidden;
+            History.Visibility = Visibility.Hidden;
+            Playlists.Visibility = Visibility.Hidden;
+            Settings.Visibility = Visibility.Hidden;
+            MainMenu.Visibility = Visibility.Hidden;
+            ParentalControls.Visibility = Visibility.Hidden;
+
+            History.Visibility = Visibility.Visible;
+        }
+
+        private void ___Button__YouTube1_Click(object sender, RoutedEventArgs e)
+        {
+            Homepage.Visibility = Visibility.Hidden;
+            Dock.Visibility = Visibility.Hidden;
+            dock_visible = false;
+            ProfileFolder.Visibility = Visibility.Hidden;
+            profile_open = false;
+
+            YouTubeContent.Visibility = Visibility.Hidden;
+            SpotifyContent.Visibility = Visibility.Hidden;
+            NetflixContent.Visibility = Visibility.Hidden;
+            CrunchyrollContent.Visibility = Visibility.Hidden;
+            GenericContent.Visibility = Visibility.Hidden;
+            History.Visibility = Visibility.Hidden;
+            Playlists.Visibility = Visibility.Hidden;
+            Settings.Visibility = Visibility.Hidden;
+            MainMenu.Visibility = Visibility.Hidden;
+            ParentalControls.Visibility = Visibility.Hidden;
+
+            Playlists.Visibility = Visibility.Visible;
+        }
+
+        private void ___Button__Settings2_Click(object sender, RoutedEventArgs e)
+        {
+            Homepage.Visibility = Visibility.Hidden;
+            Dock.Visibility = Visibility.Hidden;
+            dock_visible = false;
+            ProfileFolder.Visibility = Visibility.Hidden;
+            profile_open = false;
+
+            YouTubeContent.Visibility = Visibility.Hidden;
+            SpotifyContent.Visibility = Visibility.Hidden;
+            NetflixContent.Visibility = Visibility.Hidden;
+            CrunchyrollContent.Visibility = Visibility.Hidden;
+            GenericContent.Visibility = Visibility.Hidden;
+            History.Visibility = Visibility.Hidden;
+            Playlists.Visibility = Visibility.Hidden;
+            ParentalControls.Visibility = Visibility.Hidden;
+
+            Settings.Visibility = Visibility.Visible;
+            MainMenu.Visibility = Visibility.Visible;
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            MainMenu.Visibility = Visibility.Hidden;
+            ParentalControls.Visibility = Visibility.Visible;
         }
     }
 }

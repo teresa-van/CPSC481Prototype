@@ -33,6 +33,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>CPSC481Prototype.App</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -188,6 +191,24 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="crunchyrollcontent.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="dots.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="weather.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="lock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="clipart959280.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="ALOCK.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="BLOCK.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
